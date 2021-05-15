@@ -238,7 +238,7 @@ input[type=text], select {
 
 .guide {
     border-radius: 25px;
-    width: 50%;
+    width: 80%;
     display: block;
     margin: 5px auto;
 }
@@ -280,6 +280,10 @@ footer {
 
 @media screen and (max-width: 520px) {
     .ddc-card {
+        width: 100%;
+    }
+    
+    .guide {
         width: 100%;
     }
 }
